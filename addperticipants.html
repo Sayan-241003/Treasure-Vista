@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Perticipants</title>
+    <link rel="stylesheet" href="addperticipantsstyle.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1 class="h1">Add Participants</h1>
+        </header>
+        <div>
+            <div>Team Name :- </div><div><input id="name" type="text"></div>
+        </div>
+        <button id="entry">Add</button>
+    </div>
+    
+    <div>
+        <table class="participantstable" id="participantstable">
+            <thead>
+              <tr>
+                <th>Sr.No.</th>
+                <th>Team Name</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="srno"></td>
+                    <td id="name"></td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+    
+    <script src="addperticipantsscript.js"></script>
+</body>
+</html>
